@@ -13,7 +13,7 @@ import math
 
 #Reading df with pandas
 # !!! Important: make sure you run the codes with household_power_consumption_no_q.txt !!!
-path_to_file = 'household_power_consumption_3.txt'
+path_to_file = 'household_power_consumption.txt'
 df = pd.read_csv(path_to_file, sep= ";", header =None)
 df.columns  = ["Date", "Time","Global_active_power"," Global_reactive_power", "Voltage", "Global Intensity","Sub Metering 1", "Sub Metering 2", "Sub Metering 3"]
 
