@@ -13,7 +13,7 @@ import matplotlib.pyplot as plt
 import time as timepackage
 
 # Reading df with pandas
-path_to_file = 'household_power_consumption (2).txt'
+path_to_file = 'household_power_consumption.txt'
 df = pd.read_csv(path_to_file, sep=";", header=None)
 df.columns = ["Date", "Time", "Global_active_power", " Global_reactive_power", "Voltage", "Global Intensity",
               "Sub Metering 1", "Sub Metering 2", "Sub Metering 3"]
